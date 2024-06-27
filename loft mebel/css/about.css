@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ! Nav */
+
+nav {
+    width: 100%;
+    height: 115px;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.nav-row ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-row ul li {
+    font-family: "Roboto";
+    padding: 3px 0;
+    transition: .5s;
+
+}
+
+.nav-row ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-row ul li:hover,
+.nav-row .deliver p:hover {
+    transform: scale(1.1);
+}
+
+.nav-row .deliver {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-row .deliver p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Roboto";
+    transition: .5s;
+}
+
+.nav-row img {
+    width: 113px;
+    height: 25px;
+    transition: .5s;
+}
+
+.nav-row img:hover {
+    transform: scale(1.03);
+}
+
+
+.search {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    transition: .5s;
+}
+
+.search input {
+    width: 280px;
+    height: 40px;
+    padding: 17px 50px;
+}
+
+.search:hover {
+    transform: scale(1.03);
+}
+
+.search span {
+    font-size: 25px;
+    position: relative;
+    bottom: -8px;
+    right: -40px;
+}
+
+.user-bar {
+    width: 112px;
+    height: 18px;
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+.user-bar span {
+    transition: .5s;
+}
+
+.user-bar span:hover {
+    transform: scale(1.2);
+}
+
+.user-bar .red-circle {
+    width: 8px;
+    height: 8px;
+    background: rgb(215, 68, 68);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    right: -18px;
+}
+
+.aksya {
+    color: red;
+}
+
+.foter-texts p {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414141da;
+    padding: 8px 0;
+}
+
+.foter-texts {
+    display: flex;
+    gap: 40px;
+}
+
+.texts {
+    margin-top: 34px;
+}
+
+.span1 {
+    display: flex;
+    gap: 23px;
+    padding: 20px 0;
+}
+
+.lm {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.end-texts {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 171px;
+    height: 54px;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-end span {
+    display: flex;
+    align-items: center;
+}
+
+.call-insta {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.texts5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* ! Main */
+
+main .banner {
+    width: 100%;
+    height: 500px;
+    padding: 101px 0;
+    display: flex;
+}
+
+main .banner1 {
+    width: 500px;
+    height: 180px;
+    transition: .5s;
+}
+
+main .banner1:hover {
+    transform: scale(1.1);
+}
+
+main .banner h1 {
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+main .banner p {
+    color: rgb(104, 104, 104);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+main .banner .smoll-text {
+    display: flex;
+    align-items: center;
+}
+
+main .banner .smoll-text .line {
+    display: block;
+    width: 340px;
+    height: 1px;
+    position: relative;
+    left: -430px;
+    top: -5px;
+    background-color: rgb(182, 219, 230);
+}
+
+main .banner .smoll-text p {
+    color: rgb(36, 84, 98);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .banner .banner2 {
+    position: absolute;
+    z-index: 2;
+    right: 150px;
+    top: 220px;
+}
+
+main .banner .banner2 img {
+    width: 700px;
+    height: 400px;
+    transition: .5s;
+}
+
+main .banner .banner2 img:hover {
+    transform: scale(1.1);
+}
+
+main .green {
+    width: 500px;
+    height: 500px;
+    background: rgb(215, 232, 237);
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    right: 0px;
+}
+
+main .info {
+    width: 100%;
+    height: 730px;
+    padding-top: 200px;
+}
+
+main .info h2 {
+    text-align: center;
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main .info .why {
+    width: 100%;
+    height: 262px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 0 95px;
+}
+
+main .info .why .info-block {
+    width: 50%;
+    height: 91px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+main .info .why .info-block img {
+    width: 68px;
+    height: 68px;
+    padding: 5px 0 7px 0;
+    margin-right: 30px;
+}
+
+main .info .why .info-block .title {
+    width: 440px;
+    height: 91px;
+}
+
+main .info .why .info-block .title h3 {
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+main .info .why .info-block .title p {
+    color: rgb(104, 104, 104);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .wrapper {
+    width: 100%;
+    height: 706px;
+    background: rgb(215, 232, 237);
+}
+
+main .articles {
+    width: 544px;
+    height: 546px;
+    padding: 80px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .articles .article {
+    width: 100%;
+    height: 152px;
+    margin-bottom: 40px;
+}
+
+main .articles .article h2 {
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .articles .article span {
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin: 15px auto;
+    background: rgb(36, 84, 98);
+}
+
+main .articles .article p {
+    color: rgb(104, 104, 104);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .deliver-info {
+    width: 100%;
+    height: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 0 100px;
+}
+
+main .deliver-info .deliver-blocks {
+    width: 50%;
+    height: 141px;
+    margin-bottom: 80px;
+    margin-bottom: 30px;
+}
+
+main .deliver-info .deliver-blocks .deliver-block {
+    width: 545px;
+    height: 141px;
+    background: rgb(244, 244, 244);
+    padding: 25px;
+    position: relative;
+    transition: .5s;
+}
+
+main .deliver-info .deliver-blocks .deliver-block:hover {
+    transform: scale(1.1);
+}
+
+main .deliver-info .deliver-blocks .deliver-block .circle-img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+main .deliver-info .deliver-blocks .deliver-block h2 {
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+main .deliver-info .deliver-blocks .deliver-block p {
+    color: rgb(104, 104, 104);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .mt-card {
+    width: 100%;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 207px;
+    text-align: center;
+}
+
+main .mt-card .cards {
+    display: flex;
+    gap: 84px;
+}
+
+main .mt-card .cards .card {
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+main .mt-card .cards .card img {
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+main .mt-card .cards .card .title {
+    width: 280px;
+    height: 100px;
+    display: flex;
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .mt-card .cards .card .title-end {
+    width: 280px;
+    height: 80px;
+    display: flex;
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .mt-card h2 {
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}

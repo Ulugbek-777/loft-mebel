@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ! Nav */
+
+nav {
+  width: 100%;
+  height: 115px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46px;
+}
+
+.nav-row ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-row ul li {
+  font-family: "Roboto";
+  padding: 3px 0;
+  transition: 0.5s;
+}
+
+.nav-row ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-row ul li:hover,
+.nav-row .deliver p:hover {
+  transform: scale(1.1);
+}
+
+.nav-row .deliver {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-row .deliver p {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Roboto";
+  transition: 0.5s;
+}
+
+.nav-row img {
+  width: 113px;
+  height: 25px;
+  transition: 0.5s;
+}
+
+.nav-row img:hover {
+  transform: scale(1.03);
+}
+
+.bg-menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  gap: 55px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  padding: 0 28px;
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu span:hover {
+  transform: scale(1.2);
+}
+
+.menu .act {
+  color: rgb(215, 68, 68);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu span .menu-logo {
+  font-size: 20px;
+}
+
+.search {
+  width: 280px;
+  height: 40px;
+  display: flex;
+  transition: 0.5s;
+}
+
+.search input {
+  width: 280px;
+  height: 40px;
+  padding: 17px 50px;
+}
+
+.search:hover {
+  transform: scale(1.03);
+}
+
+.search span {
+  font-size: 25px;
+  position: relative;
+  bottom: -8px;
+  right: -40px;
+}
+
+.user-bar {
+  width: 112px;
+  height: 18px;
+  font-size: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+.user-bar span {
+  transition: 0.5s;
+}
+
+.user-bar span:hover {
+  transform: scale(1.2);
+}
+
+.user-bar .red-circle {
+  width: 8px;
+  height: 8px;
+  background: rgb(215, 68, 68);
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  right: -18px;
+}
+
+.aksya {
+  color: red;
+}
+
+.foter-texts p {
+  color: rgb(65, 65, 65);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141da;
+  padding: 8px 0;
+}
+
+.foter-texts {
+  display: flex;
+  gap: 40px;
+}
+
+.texts {
+  margin-top: 34px;
+}
+
+.span1 {
+  display: flex;
+  gap: 23px;
+  padding: 20px 0;
+}
+
+.lm {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.end-texts {
+  color: rgb(65, 65, 65);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  width: 171px;
+  height: 54px;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-end span {
+  display: flex;
+  align-items: center;
+}
+
+.call-insta {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.texts5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* ! Main */
+
+main p {
+  color: rgb(150, 150, 150);
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+main p span {
+  color: rgb(87, 87, 87);
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+main h3 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.store {
+  width: 100%;
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.store h1 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.store .product {
+  width: 200px;
+  height: 400px;
+}
+
+.product span {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 38px;
+}
+
+.product img {
+  width: 190px;
+  height: 150px;
+  margin: 0 32px 0 32px;
+}
+
+.product .title {
+  width: 117px;
+  height: 100px;
+  margin: 20px 32px 54px 32px;
+}
+
+.product .title h3 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product .title p {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 400;
+  padding: 6px 0;
+}
+
+.product .title h4 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product .title button {
+  width: 170px;
+  height: 35px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(50, 133, 1);
+  color: #fff;
+  margin-top: 30px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.product .title button:active {
+  transform: scale(0.8);
+}
+
+.aa {
+  padding-right: 10px;
+}
+
+.all {
+  color: #000;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.btns button {
+  width: 202px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  background: rgb(36, 84, 98);
+  font-family: "Roboto";
+  font-size: 13px;
+  border: none;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px;
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+}
+
+.df1 {
+  position: absolute;
+  position: absolute;
+  left: 235px;
+  top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 625px;
+}
+
+.df2 {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 235px;
+  gap: 10px;
+  align-items: center;
+}
+
+.color {
+  color: rgb(65, 65, 65);
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.kok {
+  color: rgb(158, 158, 158);
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.colors {
+  width: 14px;
+  height: 14px;
+  background: #353e4d;
+}
+
+.del-btn {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  left: 1137px;
+  top: 1px;
+  background: rgb(230 230 230);
+  width: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.imagess {
+  width: 200px;
+  height: 140px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    gap: 4px;
+}
+
+.active {
+  background: rgb(215, 68, 68);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}

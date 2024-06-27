@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  gap: 4px;
+}
+
+/* ! Nav */
+
+nav {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background: rgb(49, 49, 49);
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-row ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-row ul li {
+  font-family: "Roboto";
+  padding: 3px 0;
+  transition: 0.5s;
+}
+
+.nav-row ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-row ul li:hover,
+.nav-row .deliver p:hover {
+  transform: scale(1.1);
+}
+
+.nav-row .deliver {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-row .deliver p {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Roboto";
+  transition: 0.5s;
+}
+
+.bar-row {
+  display: flex;
+  padding: 20px 0;
+  gap: 38px;
+}
+
+/* ! Bar */
+
+.bar-row img {
+  width: 113px;
+  height: 25px;
+  margin-top: 13px;
+  transition: 0.5s;
+}
+
+.bar-row img:hover {
+  transform: scale(1.03);
+}
+
+.search {
+  width: 839px;
+  height: 50px;
+  display: flex;
+  transition: 0.5s;
+}
+
+.search input {
+  width: 839px;
+  height: 50px;
+  padding: 17px 50px;
+}
+
+.search:hover {
+  transform: scale(1.03);
+}
+
+.search span {
+  font-size: 25px;
+  position: relative;
+  bottom: -13px;
+  right: -40px;
+}
+
+.user-bar {
+  width: 112px;
+  height: 18px;
+  font-size: 25px;
+  display: flex;
+  gap: 30px;
+  margin-top: 13px;
+}
+
+.user-bar span {
+  transition: 0.5s;
+}
+
+.user-bar span:hover {
+  transform: scale(1.2);
+}
+
+.user-bar .red-circle {
+  width: 8px;
+  height: 8px;
+  background: rgb(215, 68, 68);
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  right: 10px;
+}
+
+.bg-menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  gap: 55px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.09);
+  padding: 0 28px;
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu span:hover {
+  transform: scale(1.2);
+}
+
+.menu .act {
+  color: rgb(215, 68, 68);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu span .menu-logo {
+  font-size: 20px;
+}
+
+.banner-in {
+  width: 1140px;
+  height: 450px;
+  background: url(../img/banner.png);
+}
+
+.banner .title {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.banner .title h1 {
+  color: rgb(60, 60, 60);
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.banner .title p {
+  color: rgb(52, 52, 52);
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.banner .title .btn {
+  width: 163px;
+  height: 45px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.banner .title .btn:hover {
+  transform: scale(1.1);
+}
+
+.switch .arrow-left {
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+  top: -130px;
+  right: -30px;
+}
+
+.switch .arrow-right {
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+  top: -130px;
+  right: -1000px;
+}
+
+.store {
+  width: 100%;
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.store h1 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.store .product {
+  width: 200px;
+  height: 450px;
+}
+
+.product .heart {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 195px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.product img {
+  width: 190px;
+  height: 150px;
+  margin: 0 32px 0 32px;
+}
+
+.product .title {
+  width: 117px;
+  height: 100px;
+  margin: 20px 32px 54px 32px;
+}
+
+.product .title h3 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product .title p {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 400;
+  padding: 6px 0;
+}
+
+.product .title h4 {
+  color: rgb(65, 65, 65);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product .title button {
+  width: 170px;
+  height: 35px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(50, 133, 1);
+  color: #fff;
+  margin-top: 30px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.product .title button:active {
+  transform: scale(0.8);
+}
+
+.product .title .size {
+  display: flex;
+  align-items: center;
+}
+
+.product .title .size h4 {
+  font-size: 10px;
+  padding: 10px 5px 0 5px;
+  font-weight: 600;
+  color: #999696;
+}
+
+.product .title .size p {
+  font-size: 10px;
+  padding: 5px 10px 0 10px;
+}
+
+.aa {
+  padding-right: 10px;
+}
+
+.aksya {
+  color: red;
+}
+
+.foter-texts p {
+  color: rgb(65, 65, 65);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141da;
+  padding: 8px 0;
+}
+
+.foter-texts {
+  display: flex;
+  gap: 40px;
+}
+
+.texts {
+  margin-top: 34px;
+}
+.span1 {
+  display: flex;
+  gap: 23px;
+  padding: 20px 0;
+}
+
+.lm {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.end-texts {
+  color: rgb(65, 65, 65);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  width: 171px;
+  height: 54px;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-end span {
+  display: flex;
+  align-items: center;
+}
+
+.call-insta {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.texts5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.like {
+  color: red;
+}
